@@ -57,8 +57,14 @@ int main() {
     printf("\n");
     return 0;
 }
-output :
-Enter 16-byte message X in hex (32 hex characters): 23
+Output :
+Enter 16-byte message X in hex (32 hex characters): 34
+5
+5
+6
+7
+8
+32
 4
 5
 6
@@ -68,12 +74,6 @@ Enter 16-byte message X in hex (32 hex characters): 23
 1
 2
 3
-4
-5
-6
-7
-8
-9
-MAC(K, X) = T: 23040506070809010203040506070809
+MAC(K, X) = T: 34050506070832040506070809010203
 X ? T: 00000000000000000000000000000000
-MAC for two-block message X || (X ? T): 23040506070809010203040506070809
+MAC for two-block message X || (X ? T): 34050506070832040506070809010203
